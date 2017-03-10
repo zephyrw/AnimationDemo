@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E12A6831E6FFE0000615337 /* AYCircleAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12A6821E6FFE0000615337 /* AYCircleAnimationViewController.swift */; };
+		3E12A6851E70098900615337 /* colors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E12A6841E70098900615337 /* colors@2x.png */; };
+		3E413C091E70F8E800C80529 /* AYScrollImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C081E70F8E800C80529 /* AYScrollImageViewController.swift */; };
+		3E413C0B1E71222900C80529 /* AYScrollBlurImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C0A1E71222900C80529 /* AYScrollBlurImageViewController.swift */; };
+		3E413C0D1E7123E800C80529 /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E413C0C1E7123E800C80529 /* beauty.png */; };
+		3E413C0F1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C0E1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift */; };
+		3E413C111E7125DB00C80529 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E413C101E7125DB00C80529 /* plane.png */; };
+		3E413C131E71278D00C80529 /* AYTransformFadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C121E71278D00C80529 /* AYTransformFadeView.swift */; };
+		3E413C151E7127BD00C80529 /* AYGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C141E7127BD00C80529 /* AYGradientView.swift */; };
+		3E413C171E7127EB00C80529 /* AYImageContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C161E7127EB00C80529 /* AYImageContainerView.swift */; };
+		3E413C191E71282100C80529 /* AYTableViewTapAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C181E71282100C80529 /* AYTableViewTapAnimationCell.swift */; };
+		3E413C1B1E712BC300C80529 /* AYTapAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C1A1E712BC300C80529 /* AYTapAnimationModel.swift */; };
+		3E413C1D1E713B4500C80529 /* AYPopSpringParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C1C1E713B4500C80529 /* AYPopSpringParameterViewController.swift */; };
+		3E413C1F1E713D7E00C80529 /* AYParameterValueSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C1E1E713D7E00C80529 /* AYParameterValueSliderView.swift */; };
+		3E413C211E713FB300C80529 /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E413C201E713FB300C80529 /* slider@2x.png */; };
+		3E5A23411E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A23401E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift */; };
+		3E5A23431E724694001FDA6F /* AYStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A23421E724694001FDA6F /* AYStudentModel.swift */; };
+		3E5A23451E7246A4001FDA6F /* AYClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A23441E7246A4001FDA6F /* AYClassModel.swift */; };
+		3E890FCC1E6820C8004584B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E890FCB1E6820C8004584B3 /* AppDelegate.swift */; };
+		3E890FD31E6820CA004584B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E890FD21E6820CA004584B3 /* Assets.xcassets */; };
+		3E890FD61E6820CA004584B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E890FD41E6820CA004584B3 /* LaunchScreen.storyboard */; };
+		3E8910511E6CF9C8004584B3 /* AYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910471E6CF9C8004584B3 /* AYNavigationController.swift */; };
+		3E8910521E6CF9C8004584B3 /* AYListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910481E6CF9C8004584B3 /* AYListViewController.swift */; };
+		3E8910531E6CF9C8004584B3 /* AYCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89104B1E6CF9C8004584B3 /* AYCommon.swift */; };
+		3E8910541E6CF9C8004584B3 /* UIImage+AYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89104E1E6CF9C8004584B3 /* UIImage+AYExtension.m */; };
+		3E8910551E6CF9C8004584B3 /* AYTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910501E6CF9C8004584B3 /* AYTitleCell.swift */; };
+		3E89105A1E6D072F004584B3 /* AYButtonPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910591E6D072F004584B3 /* AYButtonPressViewController.swift */; };
+		3E89105D1E6D0D15004584B3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E89105C1E6D0D15004584B3 /* 1.jpg */; };
+		3E8910641E6D1442004584B3 /* HYQiHei-25JF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8910631E6D1442004584B3 /* HYQiHei-25JF.otf */; };
+		3E8910661E6D4AF8004584B3 /* AYPopStrokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910651E6D4AF7004584B3 /* AYPopStrokeViewController.swift */; };
+		3E8910681E6D4BBE004584B3 /* AYListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910671E6D4BBE004584B3 /* AYListModel.swift */; };
+		3EFB02951E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02941E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift */; };
+		3EFB02971E6E82C6003081DD /* AYTransformFadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02961E6E82C6003081DD /* AYTransformFadeViewController.swift */; };
+		3EFB02991E6E8D0E003081DD /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB02981E6E8D0E003081DD /* 5.jpg */; };
+		3EFB029B1E6E8D17003081DD /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB029A1E6E8D17003081DD /* 4.jpg */; };
+		3EFB029D1E6E8D1E003081DD /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB029C1E6E8D1E003081DD /* 3.jpg */; };
+		3EFB029F1E6E8D26003081DD /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB029E1E6E8D26003081DD /* 2.jpg */; };
+		3EFB02A11E6E9E74003081DD /* back_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB02A01E6E9E74003081DD /* back_gray@3x.png */; };
+		3EFB02A31E6EA7FA003081DD /* back_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB02A21E6EA7FA003081DD /* back_black@3x.png */; };
+		3EFB02A51E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02A41E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift */; };
+		3EFB02A71E6EAB81003081DD /* AYWhiteNaviBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02A61E6EAB81003081DD /* AYWhiteNaviBar.swift */; };
+		3EFB02A91E6FABA2003081DD /* AYGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02A81E6FABA2003081DD /* AYGradientViewController.swift */; };
+		3EFB02AB1E6FD519003081DD /* AYPopNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02AA1E6FD519003081DD /* AYPopNumberViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E12A6821E6FFE0000615337 /* AYCircleAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCircleAnimationViewController.swift; sourceTree = "<group>"; };
+		3E12A6841E70098900615337 /* colors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors@2x.png"; sourceTree = "<group>"; };
+		3E413C081E70F8E800C80529 /* AYScrollImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYScrollImageViewController.swift; sourceTree = "<group>"; };
+		3E413C0A1E71222900C80529 /* AYScrollBlurImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYScrollBlurImageViewController.swift; sourceTree = "<group>"; };
+		3E413C0C1E7123E800C80529 /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
+		3E413C0E1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTableViewTapAnimationViewController.swift; sourceTree = "<group>"; };
+		3E413C101E7125DB00C80529 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		3E413C121E71278D00C80529 /* AYTransformFadeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTransformFadeView.swift; sourceTree = "<group>"; };
+		3E413C141E7127BD00C80529 /* AYGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYGradientView.swift; sourceTree = "<group>"; };
+		3E413C161E7127EB00C80529 /* AYImageContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYImageContainerView.swift; sourceTree = "<group>"; };
+		3E413C181E71282100C80529 /* AYTableViewTapAnimationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTableViewTapAnimationCell.swift; sourceTree = "<group>"; };
+		3E413C1A1E712BC300C80529 /* AYTapAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTapAnimationModel.swift; sourceTree = "<group>"; };
+		3E413C1C1E713B4500C80529 /* AYPopSpringParameterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPopSpringParameterViewController.swift; sourceTree = "<group>"; };
+		3E413C1E1E713D7E00C80529 /* AYParameterValueSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYParameterValueSliderView.swift; sourceTree = "<group>"; };
+		3E413C201E713FB300C80529 /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@2x.png"; sourceTree = "<group>"; };
+		3E5A23401E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHeaderViewTapAnimationViewController.swift; sourceTree = "<group>"; };
+		3E5A23421E724694001FDA6F /* AYStudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYStudentModel.swift; sourceTree = "<group>"; };
+		3E5A23441E7246A4001FDA6F /* AYClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYClassModel.swift; sourceTree = "<group>"; };
+		3E890FC81E6820C6004584B3 /* AYSpringAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYSpringAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E890FCB1E6820C8004584B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E890FD21E6820CA004584B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E890FD51E6820CA004584B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E890FD71E6820CA004584B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8910471E6CF9C8004584B3 /* AYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYNavigationController.swift; sourceTree = "<group>"; };
+		3E8910481E6CF9C8004584B3 /* AYListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYListViewController.swift; sourceTree = "<group>"; };
+		3E89104B1E6CF9C8004584B3 /* AYCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCommon.swift; sourceTree = "<group>"; };
+		3E89104D1E6CF9C8004584B3 /* UIImage+AYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AYExtension.h"; sourceTree = "<group>"; };
+		3E89104E1E6CF9C8004584B3 /* UIImage+AYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AYExtension.m"; sourceTree = "<group>"; };
+		3E8910501E6CF9C8004584B3 /* AYTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTitleCell.swift; sourceTree = "<group>"; };
+		3E8910561E6CFACD004584B3 /* AYSpringAnimationDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AYSpringAnimationDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E8910591E6D072F004584B3 /* AYButtonPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYButtonPressViewController.swift; sourceTree = "<group>"; };
+		3E89105C1E6D0D15004584B3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		3E89105F1E6D106F004584B3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3E8910631E6D1442004584B3 /* HYQiHei-25JF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HYQiHei-25JF.otf"; sourceTree = "<group>"; };
+		3E8910651E6D4AF7004584B3 /* AYPopStrokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPopStrokeViewController.swift; sourceTree = "<group>"; };
+		3E8910671E6D4BBE004584B3 /* AYListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYListModel.swift; sourceTree = "<group>"; };
+		3EFB02941E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCAShapeLayerPathViewController.swift; sourceTree = "<group>"; };
+		3EFB02961E6E82C6003081DD /* AYTransformFadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTransformFadeViewController.swift; sourceTree = "<group>"; };
+		3EFB02981E6E8D0E003081DD /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		3EFB029A1E6E8D17003081DD /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		3EFB029C1E6E8D1E003081DD /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		3EFB029E1E6E8D26003081DD /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		3EFB02A01E6E9E74003081DD /* back_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_gray@3x.png"; sourceTree = "<group>"; };
+		3EFB02A21E6EA7FA003081DD /* back_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_black@3x.png"; sourceTree = "<group>"; };
+		3EFB02A41E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYVibrancyEffectNaviBar.swift; sourceTree = "<group>"; };
+		3EFB02A61E6EAB81003081DD /* AYWhiteNaviBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYWhiteNaviBar.swift; sourceTree = "<group>"; };
+		3EFB02A81E6FABA2003081DD /* AYGradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYGradientViewController.swift; sourceTree = "<group>"; };
+		3EFB02AA1E6FD519003081DD /* AYPopNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPopNumberViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E890FC51E6820C6004584B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E890FBF1E6820C5004584B3 = {
+			isa = PBXGroup;
+			children = (
+				3E890FCA1E6820C6004584B3 /* AYSpringAnimationDemo */,
+				3E890FC91E6820C6004584B3 /* Products */,
+				3E89105E1E6D106E004584B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E890FC91E6820C6004584B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E890FC81E6820C6004584B3 /* AYSpringAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E890FCA1E6820C6004584B3 /* AYSpringAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E890FCB1E6820C8004584B3 /* AppDelegate.swift */,
+				3E8910461E6CF9C8004584B3 /* Controller */,
+				3E8910491E6CF9C8004584B3 /* Model */,
+				3E89104F1E6CF9C8004584B3 /* View */,
+				3E89104A1E6CF9C8004584B3 /* Other */,
+				3E890FD21E6820CA004584B3 /* Assets.xcassets */,
+				3E890FD41E6820CA004584B3 /* LaunchScreen.storyboard */,
+				3E8910561E6CFACD004584B3 /* AYSpringAnimationDemo-Bridging-Header.h */,
+				3E890FD71E6820CA004584B3 /* Info.plist */,
+			);
+			path = AYSpringAnimationDemo;
+			sourceTree = "<group>";
+		};
+		3E8910461E6CF9C8004584B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E8910471E6CF9C8004584B3 /* AYNavigationController.swift */,
+				3E8910481E6CF9C8004584B3 /* AYListViewController.swift */,
+				3E8910591E6D072F004584B3 /* AYButtonPressViewController.swift */,
+				3E8910651E6D4AF7004584B3 /* AYPopStrokeViewController.swift */,
+				3EFB02941E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift */,
+				3EFB02961E6E82C6003081DD /* AYTransformFadeViewController.swift */,
+				3EFB02A81E6FABA2003081DD /* AYGradientViewController.swift */,
+				3EFB02AA1E6FD519003081DD /* AYPopNumberViewController.swift */,
+				3E12A6821E6FFE0000615337 /* AYCircleAnimationViewController.swift */,
+				3E413C081E70F8E800C80529 /* AYScrollImageViewController.swift */,
+				3E413C0A1E71222900C80529 /* AYScrollBlurImageViewController.swift */,
+				3E413C0E1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift */,
+				3E413C1C1E713B4500C80529 /* AYPopSpringParameterViewController.swift */,
+				3E5A23401E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E8910491E6CF9C8004584B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E8910671E6D4BBE004584B3 /* AYListModel.swift */,
+				3E413C1A1E712BC300C80529 /* AYTapAnimationModel.swift */,
+				3E5A23421E724694001FDA6F /* AYStudentModel.swift */,
+				3E5A23441E7246A4001FDA6F /* AYClassModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E89104A1E6CF9C8004584B3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3E89105B1E6D0D0F004584B3 /* Images */,
+				3E8910631E6D1442004584B3 /* HYQiHei-25JF.otf */,
+				3E89104B1E6CF9C8004584B3 /* AYCommon.swift */,
+				3E89104D1E6CF9C8004584B3 /* UIImage+AYExtension.h */,
+				3E89104E1E6CF9C8004584B3 /* UIImage+AYExtension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3E89104F1E6CF9C8004584B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E8910501E6CF9C8004584B3 /* AYTitleCell.swift */,
+				3EFB02A41E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift */,
+				3EFB02A61E6EAB81003081DD /* AYWhiteNaviBar.swift */,
+				3E413C121E71278D00C80529 /* AYTransformFadeView.swift */,
+				3E413C141E7127BD00C80529 /* AYGradientView.swift */,
+				3E413C161E7127EB00C80529 /* AYImageContainerView.swift */,
+				3E413C181E71282100C80529 /* AYTableViewTapAnimationCell.swift */,
+				3E413C1E1E713D7E00C80529 /* AYParameterValueSliderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E89105B1E6D0D0F004584B3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E413C201E713FB300C80529 /* slider@2x.png */,
+				3E413C101E7125DB00C80529 /* plane.png */,
+				3E413C0C1E7123E800C80529 /* beauty.png */,
+				3E12A6841E70098900615337 /* colors@2x.png */,
+				3EFB02A21E6EA7FA003081DD /* back_black@3x.png */,
+				3EFB02A01E6E9E74003081DD /* back_gray@3x.png */,
+				3E89105C1E6D0D15004584B3 /* 1.jpg */,
+				3EFB029E1E6E8D26003081DD /* 2.jpg */,
+				3EFB029C1E6E8D1E003081DD /* 3.jpg */,
+				3EFB029A1E6E8D17003081DD /* 4.jpg */,
+				3EFB02981E6E8D0E003081DD /* 5.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3E89105E1E6D106E004584B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E89105F1E6D106F004584B3 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E890FC71E6820C6004584B3 /* AYSpringAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E890FDA1E6820CA004584B3 /* Build configuration list for PBXNativeTarget "AYSpringAnimationDemo" */;
+			buildPhases = (
+				3E890FC41E6820C6004584B3 /* Sources */,
+				3E890FC51E6820C6004584B3 /* Frameworks */,
+				3E890FC61E6820C6004584B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYSpringAnimationDemo;
+			productName = AYSpringAnimationDemo;
+			productReference = 3E890FC81E6820C6004584B3 /* AYSpringAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E890FC01E6820C5004584B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AY;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wpsd;
+				TargetAttributes = {
+					3E890FC71E6820C6004584B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X46N782Q77;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E890FC31E6820C5004584B3 /* Build configuration list for PBXProject "AYSpringAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E890FBF1E6820C5004584B3;
+			productRefGroup = 3E890FC91E6820C6004584B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E890FC71E6820C6004584B3 /* AYSpringAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E890FC61E6820C6004584B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFB029B1E6E8D17003081DD /* 4.jpg in Resources */,
+				3E8910641E6D1442004584B3 /* HYQiHei-25JF.otf in Resources */,
+				3EFB02991E6E8D0E003081DD /* 5.jpg in Resources */,
+				3E413C0D1E7123E800C80529 /* beauty.png in Resources */,
+				3E89105D1E6D0D15004584B3 /* 1.jpg in Resources */,
+				3EFB02A11E6E9E74003081DD /* back_gray@3x.png in Resources */,
+				3E413C111E7125DB00C80529 /* plane.png in Resources */,
+				3E890FD61E6820CA004584B3 /* LaunchScreen.storyboard in Resources */,
+				3E12A6851E70098900615337 /* colors@2x.png in Resources */,
+				3EFB029D1E6E8D1E003081DD /* 3.jpg in Resources */,
+				3EFB02A31E6EA7FA003081DD /* back_black@3x.png in Resources */,
+				3E413C211E713FB300C80529 /* slider@2x.png in Resources */,
+				3EFB029F1E6E8D26003081DD /* 2.jpg in Resources */,
+				3E890FD31E6820CA004584B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E890FC41E6820C6004584B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E413C171E7127EB00C80529 /* AYImageContainerView.swift in Sources */,
+				3EFB02A91E6FABA2003081DD /* AYGradientViewController.swift in Sources */,
+				3E8910681E6D4BBE004584B3 /* AYListModel.swift in Sources */,
+				3EFB02951E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift in Sources */,
+				3E890FCC1E6820C8004584B3 /* AppDelegate.swift in Sources */,
+				3E8910551E6CF9C8004584B3 /* AYTitleCell.swift in Sources */,
+				3EFB02AB1E6FD519003081DD /* AYPopNumberViewController.swift in Sources */,
+				3E413C1D1E713B4500C80529 /* AYPopSpringParameterViewController.swift in Sources */,
+				3E8910661E6D4AF8004584B3 /* AYPopStrokeViewController.swift in Sources */,
+				3EFB02971E6E82C6003081DD /* AYTransformFadeViewController.swift in Sources */,
+				3E413C191E71282100C80529 /* AYTableViewTapAnimationCell.swift in Sources */,
+				3E8910541E6CF9C8004584B3 /* UIImage+AYExtension.m in Sources */,
+				3E413C131E71278D00C80529 /* AYTransformFadeView.swift in Sources */,
+				3EFB02A71E6EAB81003081DD /* AYWhiteNaviBar.swift in Sources */,
+				3E413C0F1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift in Sources */,
+				3E413C091E70F8E800C80529 /* AYScrollImageViewController.swift in Sources */,
+				3E5A23451E7246A4001FDA6F /* AYClassModel.swift in Sources */,
+				3E5A23411E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift in Sources */,
+				3E8910531E6CF9C8004584B3 /* AYCommon.swift in Sources */,
+				3E12A6831E6FFE0000615337 /* AYCircleAnimationViewController.swift in Sources */,
+				3EFB02A51E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift in Sources */,
+				3E8910521E6CF9C8004584B3 /* AYListViewController.swift in Sources */,
+				3E8910511E6CF9C8004584B3 /* AYNavigationController.swift in Sources */,
+				3E413C1B1E712BC300C80529 /* AYTapAnimationModel.swift in Sources */,
+				3E413C0B1E71222900C80529 /* AYScrollBlurImageViewController.swift in Sources */,
+				3E89105A1E6D072F004584B3 /* AYButtonPressViewController.swift in Sources */,
+				3E413C1F1E713D7E00C80529 /* AYParameterValueSliderView.swift in Sources */,
+				3E413C151E7127BD00C80529 /* AYGradientView.swift in Sources */,
+				3E5A23431E724694001FDA6F /* AYStudentModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E890FD41E6820CA004584B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E890FD51E6820CA004584B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E890FD81E6820CA004584B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E890FD91E6820CA004584B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E890FDB1E6820CA004584B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X46N782Q77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AYSpringAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wpsd.AYSpringAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AYSpringAnimationDemo/AYSpringAnimationDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E890FDC1E6820CA004584B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X46N782Q77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AYSpringAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wpsd.AYSpringAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AYSpringAnimationDemo/AYSpringAnimationDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E890FC31E6820C5004584B3 /* Build configuration list for PBXProject "AYSpringAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E890FD81E6820CA004584B3 /* Debug */,
+				3E890FD91E6820CA004584B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E890FDA1E6820CA004584B3 /* Build configuration list for PBXNativeTarget "AYSpringAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E890FDB1E6820CA004584B3 /* Debug */,
+				3E890FDC1E6820CA004584B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E890FC01E6820C5004584B3 /* Project object */;
+}
