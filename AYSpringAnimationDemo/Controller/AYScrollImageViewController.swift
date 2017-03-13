@@ -39,9 +39,9 @@ class AYScrollImageViewController: UIViewController, UIScrollViewDelegate {
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.bounces = false
         scrollView.delegate = self
-        for index in 0..<images.count {
+        for (index, image) in images.enumerated() {
             let containerView = AYImageContainerView(frame: CGRect(x: CGFloat(index) * SCREEN_WIDTH, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
-            containerView.imageView?.image = images[index]
+            containerView.imageView?.image = image
             containerView.tag = index + tagAdditional
             scrollView.addSubview(containerView)
         }

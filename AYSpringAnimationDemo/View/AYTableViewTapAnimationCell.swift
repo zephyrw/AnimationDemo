@@ -43,22 +43,22 @@ class AYTableViewTapAnimationCell: UITableViewCell {
         squareView = UIView(frame: CGRect(x: SCREEN_WIDTH - 60, y: 23, width: 35, height: 35))
         squareView?.layer.borderWidth = 1
         squareView?.layer.borderColor = UIColor.gray.cgColor
-        addSubview(squareView!)
+        contentView.addSubview(squareView!)
         
         iconView = UIImageView(image: UIImage(named: "plane"))
         iconView?.frame = CGRect(x: SCREEN_WIDTH - 62, y: 20, width: 40, height: 40)
         iconView?.alpha = 0
-        addSubview(iconView!)
+        contentView.addSubview(iconView!)
         
         nameLabel = UILabel(frame: CGRect(x: 30, y: 10, width: 300, height: 60))
         nameLabel?.font = UIFont(name: "Avenir", size: 20)
         nameLabel?.textColor = UIColor.gray
-        addSubview(nameLabel!)
+        contentView.addSubview(nameLabel!)
         
         lineView = UIView(frame: CGRect(x: 30, y: 70, width: 0, height: 2))
         lineView?.alpha = 0
         lineView?.backgroundColor = UIColor.red
-        addSubview(lineView!)
+        contentView.addSubview(lineView!)
         
         cellSelected = { isSelected in
             self.selectStateChangeAnimation()

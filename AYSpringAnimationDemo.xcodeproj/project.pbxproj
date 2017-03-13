@@ -22,6 +22,22 @@
 		3E413C1D1E713B4500C80529 /* AYPopSpringParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C1C1E713B4500C80529 /* AYPopSpringParameterViewController.swift */; };
 		3E413C1F1E713D7E00C80529 /* AYParameterValueSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E413C1E1E713D7E00C80529 /* AYParameterValueSliderView.swift */; };
 		3E413C211E713FB300C80529 /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E413C201E713FB300C80529 /* slider@2x.png */; };
+		3E4BB7191E7636880059C4C8 /* AYCountDownTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB7181E7636880059C4C8 /* AYCountDownTimerViewController.swift */; };
+		3E4BB71B1E763BAF0059C4C8 /* AYTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB71A1E763BAF0059C4C8 /* AYTimeModel.swift */; };
+		3E4BB71D1E763DC10059C4C8 /* AYCountDownTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB71C1E763DC10059C4C8 /* AYCountDownTimeCell.swift */; };
+		3E4BB71F1E7669870059C4C8 /* AYClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB71E1E7669870059C4C8 /* AYClockViewController.swift */; };
+		3E4BB7211E7670AF0059C4C8 /* hour@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB7201E7670AF0059C4C8 /* hour@2x.png */; };
+		3E4BB7231E7670D10059C4C8 /* min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB7221E7670D10059C4C8 /* min@2x.png */; };
+		3E4BB7251E7670DC0059C4C8 /* sec@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB7241E7670DC0059C4C8 /* sec@2x.png */; };
+		3E4BB7281E7682D60059C4C8 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB7271E7682D60059C4C8 /* UIView+GlowView.m */; };
+		3E4BB72A1E7685D10059C4C8 /* AYDrawWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB7291E7685D10059C4C8 /* AYDrawWaveViewController.swift */; };
+		3E4BB72C1E768A0E0059C4C8 /* AYDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB72B1E768A0E0059C4C8 /* AYDrawView.swift */; };
+		3E4BB72E1E768A290059C4C8 /* AYDrawLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB72D1E768A290059C4C8 /* AYDrawLineView.swift */; };
+		3E4BB7301E769E060059C4C8 /* AYLabelScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB72F1E769E060059C4C8 /* AYLabelScaleViewController.swift */; };
+		3E4BB7321E769EAC0059C4C8 /* AYBlackNaviBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB7311E769EAC0059C4C8 /* AYBlackNaviBar.swift */; };
+		3E4BB7341E769F050059C4C8 /* back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB7331E769F050059C4C8 /* back_white@3x.png */; };
+		3E4BB7361E76A0510059C4C8 /* back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB7351E76A0510059C4C8 /* back_white@2x.png */; };
+		3E4BB7381E76A1C30059C4C8 /* AYScaleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB7371E76A1C30059C4C8 /* AYScaleLabel.swift */; };
 		3E5A23411E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A23401E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift */; };
 		3E5A23431E724694001FDA6F /* AYStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A23421E724694001FDA6F /* AYStudentModel.swift */; };
 		3E5A23451E7246A4001FDA6F /* AYClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A23441E7246A4001FDA6F /* AYClassModel.swift */; };
@@ -38,6 +54,9 @@
 		3E8910641E6D1442004584B3 /* HYQiHei-25JF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8910631E6D1442004584B3 /* HYQiHei-25JF.otf */; };
 		3E8910661E6D4AF8004584B3 /* AYPopStrokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910651E6D4AF7004584B3 /* AYPopStrokeViewController.swift */; };
 		3E8910681E6D4BBE004584B3 /* AYListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8910671E6D4BBE004584B3 /* AYListModel.swift */; };
+		3E8AEE121E7291E000773510 /* AYStudentInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8AEE111E7291E000773510 /* AYStudentInfoCell.swift */; };
+		3E8AEE141E72986A00773510 /* AYClassHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8AEE131E72986A00773510 /* AYClassHeaderView.swift */; };
+		3E8AEE161E729A7C00773510 /* arrows_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8AEE151E729A7C00773510 /* arrows_next.png */; };
 		3EFB02951E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02941E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift */; };
 		3EFB02971E6E82C6003081DD /* AYTransformFadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB02961E6E82C6003081DD /* AYTransformFadeViewController.swift */; };
 		3EFB02991E6E8D0E003081DD /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB02981E6E8D0E003081DD /* 5.jpg */; };
@@ -68,6 +87,23 @@
 		3E413C1C1E713B4500C80529 /* AYPopSpringParameterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPopSpringParameterViewController.swift; sourceTree = "<group>"; };
 		3E413C1E1E713D7E00C80529 /* AYParameterValueSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYParameterValueSliderView.swift; sourceTree = "<group>"; };
 		3E413C201E713FB300C80529 /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@2x.png"; sourceTree = "<group>"; };
+		3E4BB7181E7636880059C4C8 /* AYCountDownTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountDownTimerViewController.swift; sourceTree = "<group>"; };
+		3E4BB71A1E763BAF0059C4C8 /* AYTimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTimeModel.swift; sourceTree = "<group>"; };
+		3E4BB71C1E763DC10059C4C8 /* AYCountDownTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountDownTimeCell.swift; sourceTree = "<group>"; };
+		3E4BB71E1E7669870059C4C8 /* AYClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYClockViewController.swift; sourceTree = "<group>"; };
+		3E4BB7201E7670AF0059C4C8 /* hour@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hour@2x.png"; sourceTree = "<group>"; };
+		3E4BB7221E7670D10059C4C8 /* min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "min@2x.png"; sourceTree = "<group>"; };
+		3E4BB7241E7670DC0059C4C8 /* sec@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sec@2x.png"; sourceTree = "<group>"; };
+		3E4BB7261E7682D60059C4C8 /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		3E4BB7271E7682D60059C4C8 /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
+		3E4BB7291E7685D10059C4C8 /* AYDrawWaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYDrawWaveViewController.swift; sourceTree = "<group>"; };
+		3E4BB72B1E768A0E0059C4C8 /* AYDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYDrawView.swift; sourceTree = "<group>"; };
+		3E4BB72D1E768A290059C4C8 /* AYDrawLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYDrawLineView.swift; sourceTree = "<group>"; };
+		3E4BB72F1E769E060059C4C8 /* AYLabelScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYLabelScaleViewController.swift; sourceTree = "<group>"; };
+		3E4BB7311E769EAC0059C4C8 /* AYBlackNaviBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYBlackNaviBar.swift; sourceTree = "<group>"; };
+		3E4BB7331E769F050059C4C8 /* back_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_white@3x.png"; sourceTree = "<group>"; };
+		3E4BB7351E76A0510059C4C8 /* back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_white@2x.png"; sourceTree = "<group>"; };
+		3E4BB7371E76A1C30059C4C8 /* AYScaleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYScaleLabel.swift; sourceTree = "<group>"; };
 		3E5A23401E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHeaderViewTapAnimationViewController.swift; sourceTree = "<group>"; };
 		3E5A23421E724694001FDA6F /* AYStudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYStudentModel.swift; sourceTree = "<group>"; };
 		3E5A23441E7246A4001FDA6F /* AYClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYClassModel.swift; sourceTree = "<group>"; };
@@ -89,6 +125,9 @@
 		3E8910631E6D1442004584B3 /* HYQiHei-25JF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HYQiHei-25JF.otf"; sourceTree = "<group>"; };
 		3E8910651E6D4AF7004584B3 /* AYPopStrokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPopStrokeViewController.swift; sourceTree = "<group>"; };
 		3E8910671E6D4BBE004584B3 /* AYListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYListModel.swift; sourceTree = "<group>"; };
+		3E8AEE111E7291E000773510 /* AYStudentInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYStudentInfoCell.swift; sourceTree = "<group>"; };
+		3E8AEE131E72986A00773510 /* AYClassHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYClassHeaderView.swift; sourceTree = "<group>"; };
+		3E8AEE151E729A7C00773510 /* arrows_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows_next.png; sourceTree = "<group>"; };
 		3EFB02941E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCAShapeLayerPathViewController.swift; sourceTree = "<group>"; };
 		3EFB02961E6E82C6003081DD /* AYTransformFadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTransformFadeViewController.swift; sourceTree = "<group>"; };
 		3EFB02981E6E8D0E003081DD /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
@@ -164,6 +203,10 @@
 				3E413C0E1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift */,
 				3E413C1C1E713B4500C80529 /* AYPopSpringParameterViewController.swift */,
 				3E5A23401E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift */,
+				3E4BB7181E7636880059C4C8 /* AYCountDownTimerViewController.swift */,
+				3E4BB71E1E7669870059C4C8 /* AYClockViewController.swift */,
+				3E4BB7291E7685D10059C4C8 /* AYDrawWaveViewController.swift */,
+				3E4BB72F1E769E060059C4C8 /* AYLabelScaleViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,6 +218,7 @@
 				3E413C1A1E712BC300C80529 /* AYTapAnimationModel.swift */,
 				3E5A23421E724694001FDA6F /* AYStudentModel.swift */,
 				3E5A23441E7246A4001FDA6F /* AYClassModel.swift */,
+				3E4BB71A1E763BAF0059C4C8 /* AYTimeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +231,8 @@
 				3E89104B1E6CF9C8004584B3 /* AYCommon.swift */,
 				3E89104D1E6CF9C8004584B3 /* UIImage+AYExtension.h */,
 				3E89104E1E6CF9C8004584B3 /* UIImage+AYExtension.m */,
+				3E4BB7261E7682D60059C4C8 /* UIView+GlowView.h */,
+				3E4BB7271E7682D60059C4C8 /* UIView+GlowView.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -197,11 +243,18 @@
 				3E8910501E6CF9C8004584B3 /* AYTitleCell.swift */,
 				3EFB02A41E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift */,
 				3EFB02A61E6EAB81003081DD /* AYWhiteNaviBar.swift */,
+				3E4BB7311E769EAC0059C4C8 /* AYBlackNaviBar.swift */,
 				3E413C121E71278D00C80529 /* AYTransformFadeView.swift */,
 				3E413C141E7127BD00C80529 /* AYGradientView.swift */,
 				3E413C161E7127EB00C80529 /* AYImageContainerView.swift */,
 				3E413C181E71282100C80529 /* AYTableViewTapAnimationCell.swift */,
 				3E413C1E1E713D7E00C80529 /* AYParameterValueSliderView.swift */,
+				3E8AEE111E7291E000773510 /* AYStudentInfoCell.swift */,
+				3E8AEE131E72986A00773510 /* AYClassHeaderView.swift */,
+				3E4BB71C1E763DC10059C4C8 /* AYCountDownTimeCell.swift */,
+				3E4BB72B1E768A0E0059C4C8 /* AYDrawView.swift */,
+				3E4BB72D1E768A290059C4C8 /* AYDrawLineView.swift */,
+				3E4BB7371E76A1C30059C4C8 /* AYScaleLabel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +262,12 @@
 		3E89105B1E6D0D0F004584B3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3E4BB7351E76A0510059C4C8 /* back_white@2x.png */,
+				3E4BB7331E769F050059C4C8 /* back_white@3x.png */,
+				3E4BB7241E7670DC0059C4C8 /* sec@2x.png */,
+				3E4BB7221E7670D10059C4C8 /* min@2x.png */,
+				3E4BB7201E7670AF0059C4C8 /* hour@2x.png */,
+				3E8AEE151E729A7C00773510 /* arrows_next.png */,
 				3E413C201E713FB300C80529 /* slider@2x.png */,
 				3E413C101E7125DB00C80529 /* plane.png */,
 				3E413C0C1E7123E800C80529 /* beauty.png */,
@@ -294,13 +353,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4BB7341E769F050059C4C8 /* back_white@3x.png in Resources */,
+				3E8AEE161E729A7C00773510 /* arrows_next.png in Resources */,
 				3EFB029B1E6E8D17003081DD /* 4.jpg in Resources */,
 				3E8910641E6D1442004584B3 /* HYQiHei-25JF.otf in Resources */,
 				3EFB02991E6E8D0E003081DD /* 5.jpg in Resources */,
 				3E413C0D1E7123E800C80529 /* beauty.png in Resources */,
 				3E89105D1E6D0D15004584B3 /* 1.jpg in Resources */,
+				3E4BB7231E7670D10059C4C8 /* min@2x.png in Resources */,
+				3E4BB7211E7670AF0059C4C8 /* hour@2x.png in Resources */,
 				3EFB02A11E6E9E74003081DD /* back_gray@3x.png in Resources */,
 				3E413C111E7125DB00C80529 /* plane.png in Resources */,
+				3E4BB7251E7670DC0059C4C8 /* sec@2x.png in Resources */,
 				3E890FD61E6820CA004584B3 /* LaunchScreen.storyboard in Resources */,
 				3E12A6851E70098900615337 /* colors@2x.png in Resources */,
 				3EFB029D1E6E8D1E003081DD /* 3.jpg in Resources */,
@@ -308,6 +372,7 @@
 				3E413C211E713FB300C80529 /* slider@2x.png in Resources */,
 				3EFB029F1E6E8D26003081DD /* 2.jpg in Resources */,
 				3E890FD31E6820CA004584B3 /* Assets.xcassets in Resources */,
+				3E4BB7361E76A0510059C4C8 /* back_white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,30 +383,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4BB72C1E768A0E0059C4C8 /* AYDrawView.swift in Sources */,
 				3E413C171E7127EB00C80529 /* AYImageContainerView.swift in Sources */,
+				3E8AEE121E7291E000773510 /* AYStudentInfoCell.swift in Sources */,
 				3EFB02A91E6FABA2003081DD /* AYGradientViewController.swift in Sources */,
+				3E8AEE141E72986A00773510 /* AYClassHeaderView.swift in Sources */,
 				3E8910681E6D4BBE004584B3 /* AYListModel.swift in Sources */,
 				3EFB02951E6E4B28003081DD /* AYCAShapeLayerPathViewController.swift in Sources */,
+				3E4BB72A1E7685D10059C4C8 /* AYDrawWaveViewController.swift in Sources */,
 				3E890FCC1E6820C8004584B3 /* AppDelegate.swift in Sources */,
 				3E8910551E6CF9C8004584B3 /* AYTitleCell.swift in Sources */,
 				3EFB02AB1E6FD519003081DD /* AYPopNumberViewController.swift in Sources */,
 				3E413C1D1E713B4500C80529 /* AYPopSpringParameterViewController.swift in Sources */,
 				3E8910661E6D4AF8004584B3 /* AYPopStrokeViewController.swift in Sources */,
 				3EFB02971E6E82C6003081DD /* AYTransformFadeViewController.swift in Sources */,
+				3E4BB71F1E7669870059C4C8 /* AYClockViewController.swift in Sources */,
 				3E413C191E71282100C80529 /* AYTableViewTapAnimationCell.swift in Sources */,
+				3E4BB7301E769E060059C4C8 /* AYLabelScaleViewController.swift in Sources */,
 				3E8910541E6CF9C8004584B3 /* UIImage+AYExtension.m in Sources */,
 				3E413C131E71278D00C80529 /* AYTransformFadeView.swift in Sources */,
+				3E4BB7321E769EAC0059C4C8 /* AYBlackNaviBar.swift in Sources */,
 				3EFB02A71E6EAB81003081DD /* AYWhiteNaviBar.swift in Sources */,
 				3E413C0F1E7124E600C80529 /* AYTableViewTapAnimationViewController.swift in Sources */,
 				3E413C091E70F8E800C80529 /* AYScrollImageViewController.swift in Sources */,
+				3E4BB7381E76A1C30059C4C8 /* AYScaleLabel.swift in Sources */,
 				3E5A23451E7246A4001FDA6F /* AYClassModel.swift in Sources */,
 				3E5A23411E723F9A001FDA6F /* AYHeaderViewTapAnimationViewController.swift in Sources */,
 				3E8910531E6CF9C8004584B3 /* AYCommon.swift in Sources */,
+				3E4BB71B1E763BAF0059C4C8 /* AYTimeModel.swift in Sources */,
 				3E12A6831E6FFE0000615337 /* AYCircleAnimationViewController.swift in Sources */,
+				3E4BB7281E7682D60059C4C8 /* UIView+GlowView.m in Sources */,
 				3EFB02A51E6EAA77003081DD /* AYVibrancyEffectNaviBar.swift in Sources */,
 				3E8910521E6CF9C8004584B3 /* AYListViewController.swift in Sources */,
 				3E8910511E6CF9C8004584B3 /* AYNavigationController.swift in Sources */,
 				3E413C1B1E712BC300C80529 /* AYTapAnimationModel.swift in Sources */,
+				3E4BB72E1E768A290059C4C8 /* AYDrawLineView.swift in Sources */,
+				3E4BB7191E7636880059C4C8 /* AYCountDownTimerViewController.swift in Sources */,
+				3E4BB71D1E763DC10059C4C8 /* AYCountDownTimeCell.swift in Sources */,
 				3E413C0B1E71222900C80529 /* AYScrollBlurImageViewController.swift in Sources */,
 				3E89105A1E6D072F004584B3 /* AYButtonPressViewController.swift in Sources */,
 				3E413C1F1E713D7E00C80529 /* AYParameterValueSliderView.swift in Sources */,
@@ -467,6 +545,7 @@
 				);
 				INFOPLIST_FILE = AYSpringAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = wpsd.AYSpringAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AYSpringAnimationDemo/AYSpringAnimationDemo-Bridging-Header.h";
@@ -487,6 +566,7 @@
 				);
 				INFOPLIST_FILE = AYSpringAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = wpsd.AYSpringAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AYSpringAnimationDemo/AYSpringAnimationDemo-Bridging-Header.h";

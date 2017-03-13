@@ -65,7 +65,8 @@ class AYListViewController: UIViewController {
         return tableView
     }()
     
-    let listModels : [AYListModel] = [AYListModel(title: "POP-按钮动画", viewController: AYButtonPressViewController(), vcName: NSStringFromClass(AYButtonPressViewController.self)),
+    let listModels : [AYListModel] = [AYListModel(title: "POP-按钮动画", viewController: AYButtonPressViewController(), vcName:
+                                          NSStringFromClass(AYButtonPressViewController.self)),
                                       AYListModel(title: "POP-Stroke动画", viewController: AYPopStrokeViewController(), vcName: NSStringFromClass(AYPopStrokeViewController.self)),
                                       AYListModel(title: "CAShapeLayer的path动画", viewController: AYCAShapeLayerPathViewController(), vcName: NSStringFromClass(AYCAShapeLayerPathViewController.self)),
                                       AYListModel(title: "图片碎片化mask动画", viewController: AYTransformFadeViewController(), vcName: NSStringFromClass(AYTransformFadeViewController.self)),
@@ -76,7 +77,11 @@ class AYListViewController: UIViewController {
                                       AYListModel(title: "UIScrollView视差模糊效果", viewController: AYScrollBlurImageViewController(), vcName: NSStringFromClass(AYScrollBlurImageViewController.self)),
                                       AYListModel(title: "UITableView状态切换效果", viewController: AYTableViewTapAnimationViewController(), vcName: NSStringFromClass(AYTableViewTapAnimationViewController.self)),
                                       AYListModel(title: "POP-Spring动画参数详解", viewController: AYPopSpringParameterViewController(), vcName: NSStringFromClass(AYPopSpringParameterViewController.self)),
-                                      AYListModel(title: "UITableView展开缩放动画", viewController: AYHeaderViewTapAnimationViewController(), vcName: NSStringFromClass(AYHeaderViewTapAnimationViewController.self))
+                                      AYListModel(title: "UITableView展开缩放动画", viewController: AYHeaderViewTapAnimationViewController(), vcName: NSStringFromClass(AYHeaderViewTapAnimationViewController.self)),
+                                      AYListModel(title: "UITableView显示倒计时", viewController: AYCountDownTimerViewController(), vcName: NSStringFromClass(AYCountDownTimerViewController.self)),
+                                      AYListModel(title: "时钟动画效果", viewController: AYClockViewController(), vcName: NSStringFromClass(AYClockViewController.self)),
+                                      AYListModel(title: "绘制波形图动画", viewController: AYDrawWaveViewController(), vcName: NSStringFromClass(AYDrawWaveViewController.self)),
+                                      AYListModel(title: "UILabel缩放动画", viewController: AYLabelScaleViewController(), vcName: NSStringFromClass(AYLabelScaleViewController.self))
                                       ]
 }
 
