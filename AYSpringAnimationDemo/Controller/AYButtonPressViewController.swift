@@ -99,7 +99,7 @@ class AYButtonPressViewController: UIViewController {
         circle.strokeColor = UIColor.white.cgColor
         circle.fillColor = UIColor.clear.cgColor
         circle.backgroundColor = UIColor.white.cgColor
-        circle.path = UIBezierPath(arcCenter: self.view.center, radius: radius, startAngle: -CGFloat(M_PI_2), endAngle: CGFloat(M_PI_2) * 3.0, clockwise: true).cgPath
+        circle.path = UIBezierPath(arcCenter: self.view.center, radius: radius, startAngle: -CGFloat(Float.pi / 2.0), endAngle: CGFloat(M_PI_2) * 3.0, clockwise: true).cgPath
         var circleWidth : CGFloat = (radius + circle.lineWidth) * 2
         return circle
     }()
@@ -114,7 +114,7 @@ class AYButtonPressViewController: UIViewController {
         circle.strokeColor = UIColor.white.cgColor
         circle.fillColor = UIColor.clear.cgColor
         circle.backgroundColor = UIColor.white.cgColor
-        circle.path = UIBezierPath(arcCenter: self.view.center, radius: radius, startAngle: -CGFloat(M_PI_2) * 3, endAngle: CGFloat(M_PI_2), clockwise: true).cgPath
+        circle.path = UIBezierPath(arcCenter: self.view.center, radius: radius, startAngle: CGFloat(-Float.pi / 2.0 * 3.0), endAngle: CGFloat(Float.pi / 2.0), clockwise: true).cgPath
         var circleWidth : CGFloat = (radius + circle.lineWidth) * 2
         return circle
     }()

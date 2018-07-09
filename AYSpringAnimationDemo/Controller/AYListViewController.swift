@@ -38,27 +38,25 @@ class AYListViewController: UIViewController {
     
     private func setupTitleView() {
         
-        let naviBarFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: SCREEN_WIDTH, height: 64))
-        
-        let bgImageView = UIImageView(image: UIImage.diagonalImage(with: naviBarFrame.size, lineWidth: 2, lineCap: 7, fill: UIColor(white: 0.9715, alpha: 1)))
-        bgImageView.frame = naviBarFrame
+        let bgImageView = UIImageView(image: UIImage.diagonalImage(with: NAVIBAR_FRAME.size, lineWidth: 2, lineCap: 7, fill: UIColor(white: 0.9715, alpha: 1)))
+        bgImageView.frame = NAVIBAR_FRAME
         view.addSubview(bgImageView)
         
-        let titleLabel = UILabel(frame: naviBarFrame)
+        let titleLabel = UILabel(frame: CGRect(x: 0, y: STATUSBAR_HEIGHT, width: SCREEN_WIDTH, height: 44));
         titleLabel.textAlignment = NSTextAlignment.center
         let attrTitle = NSMutableAttributedString(string: "Animation", attributes: [NSForegroundColorAttributeName : UIColor(white: 0.4, alpha: 1), NSFontAttributeName : UIFont(name: "Avenir-Light", size: 28) ?? UIFont.systemFont(ofSize: 28)])
         attrTitle.addAttributes([NSForegroundColorAttributeName : UIColor(red: 55 / 255.0, green: 149 / 255.0, blue: 210 / 255.0, alpha: 1)], range: NSRange(location: 1, length: 1))
         titleLabel.attributedText = attrTitle
         view.addSubview(titleLabel)
         
-        let lineView = UIView(frame: CGRect(x: 0, y: 64, width: SCREEN_WIDTH, height: 1))
+        let lineView = UIView(frame: CGRect(x: 0, y: NAVIBAR_FRAME.height, width: SCREEN_WIDTH, height: 1))
         lineView.backgroundColor = UIColor(white: 0.8, alpha: 1)
         view.addSubview(lineView)
         
     }
     
     lazy var tableView : UITableView = {
-        let tableView = UITableView(frame: CGRect(x: 0, y: 64, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - 64), style: UITableViewStyle.plain)
+        let tableView = UITableView(frame: CGRect(x: 0, y: NAVIBAR_FRAME.height, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - NAVIBAR_FRAME.height), style: UITableViewStyle.plain)
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorStyle = UITableViewCellSeparatorStyle.none

@@ -69,7 +69,7 @@ class AYPopStrokeViewController: UIViewController {
         circle.strokeEnd = 0
         circle.lineCap = kCALineCapRound
         circle.lineWidth = 5
-        circle.path = UIBezierPath(arcCenter: self.view.center, radius: 50, startAngle: 0, endAngle: CGFloat(M_PI) * 2, clockwise: true).cgPath
+        circle.path = UIBezierPath(arcCenter: self.view.center, radius: 50, startAngle: 0, endAngle: CGFloat.pi * 2, clockwise: true).cgPath
         return circle
     }()
 

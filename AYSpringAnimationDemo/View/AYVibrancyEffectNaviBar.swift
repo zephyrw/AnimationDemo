@@ -23,14 +23,15 @@ class AYVibrancyEffectNaviBar: UIView {
         visualEffectView.frame = blurView.bounds
         blurView.contentView.addSubview(visualEffectView)
         
-        let titleLabel = UILabel(frame: visualEffectView.bounds)
+        let backBtnW : CGFloat = 40.0
+        let titleLabel = UILabel(frame: CGRect(x: backBtnW, y: STATUSBAR_HEIGHT, width: SCREEN_WIDTH - backBtnW * 2, height: 44))
         titleLabel.textAlignment = NSTextAlignment.center
         titleLabel.text = title
         titleLabel.font = UIFont.boldSystemFont(ofSize: 18)
         visualEffectView.contentView.addSubview(titleLabel)
         
-        let backBtn = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 64))
-        backBtn.setImage(#imageLiteral(resourceName: "back_black.png"), for: UIControlState.normal)
+        let backBtn = UIButton(frame: CGRect(x: 0, y: STATUSBAR_HEIGHT, width: backBtnW, height: 44))
+        backBtn.setImage(#imageLiteral(resourceName: "back_gray.png"), for: UIControlState.normal)
         backBtn.addTarget(self, action: #selector(backBtnClick(sender:)), for: UIControlEvents.touchUpInside)
         addSubview(backBtn)
     }
