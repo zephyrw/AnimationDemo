@@ -116,7 +116,7 @@ extension AYHeaderViewTapAnimationViewController : UITableViewDataSource {
                 UIView.animate(withDuration: 0.2, animations: {
                     headerView.titleLabel?.transform = CGAffineTransform(translationX: 10, y: 0)
                     headerView.titleLabel?.textColor = UIColor.red
-                    headerView.arrowView?.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI_2))
+                    headerView.arrowView?.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
                 })
             }
         }
